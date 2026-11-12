@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <meta name="description" content="This is my portfolio website showcasing my projects and skills.">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="icon.png" type="image/png">
+    <link rel="stylesheet" href="https://use.hugeicons.com/font/icons.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#home">
+                <img src="icon.png" alt="logo"> 
+            </a>
+            <ul class="nav">
+                <li><a href="#home"><i class="hgi-stroke hgi-home-11"></i>Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>        
+            </ul>
+            <button type="button">Let's talk</button>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>FAITH OCHIENG</h1>
+            <p>"I am a <strong> Web developer</strong>, <em>always ready to learn and create and develop<br></em> <del>Was a beginner</del> and, now is building on various projects to help solve day to day problems."</p>
+            <span>Kirinyaga.</span><span>Open to work.</span>
+            <hr>
+        </section>   
+            <section id="about">
+                <h2>About me</h2>
+                <figure>
+                    <img src="figure.jpeg" alt="my photo">
+                    <figcaption>fig.1-Engineer,Developer Faith</figcaption>
+                </figure>
+                <div>
+                <article>
+                    <h3>MY STORY</h3>
+                    <p>My name is Faith Atieno. I am a software engineering student at the university of Kirinyaga.
+                        I joined the university in the year 2026 where i decided to join the club that could help me get closer to my dream.
+                    </p>
+                    <p>Joining the Computer Society of Kirinyaga was one of the best choices because in a span of just a month i have got to meet some of the people who have really 
+                        inspired me and also they have volunteer to help me get close to my dream. I am looking forward to build more interactive websites that will help solve day to day challanges in our society
+                    </p>
+                </article>
+                <aside>
+                    <h3>Quick facts</h3>
+                    <ul>
+                        <li>The first programmer was Ada Lovelace</li>
+                         <li>The first computer bug was a moth</li>
+                          <li>LinusTorvalds invented Linux</li>
+                           <li>HTML was invented by Tim Berners</li>
+                    </ul>
+                </aside>
+                </div>
+                <div class="rate">
+                    <h3>Skills</h3>
+                    <ul>
+                        <li>Expert in frontend Development</li>
+                        <li>Java script</li>
+                        <li>HTML and CSS</li>
+                    </ul>
+                    <h3>Goals</h3>
+                    <ol>
+                        <li>Become a fullstack developer by the end of second year</li>
+                        <li>Build a website that can solve various problems in the commnity</li>
+                        <li>Become a software engineer</li>
+                    </ol>
+                </div>
+                    <ul>
+                        <li><a href="https://www.w3schools.com/html/html5_semantic_elements.asp" target="_blank">Click to Learn HTML</a></li>
+                        <li><a href="https://www.w3schools.com/css/default.asp" target="_blank">Click to learn CSS</a></li>
+                        <li><a href="https://www.w3schools.com/js/default.asp" target="_blank">Click here to learn JavaScript</a></li>
+                    </ul>
+            </section>  
+            <section id="projects">
+                <h2>Projects</h2>
+                <table>
+                    <caption>MY BEGINNER PROJECTS</caption>
+                    <thead>
+                        <tr>
+                            <td>ID</td>
+                             <td>Projects</td>
+                              <td>Status</td>
+                               <td>Action</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>3452Q</td>
+                        <td><a href="https://www.productdesignportfolios.com/portfolio/jessica-goldman" target="_blank"> Portfolio website</a></td>
+                        <td>Beginner</td>
+                        <td><i class="hgi-stroke hgi-trash"></i></td>
+                    </tr>
+                    <tr>
+                        <td>4567F</td>
+                        <td><a href="https://www.dominionmodelschool.com/">Student Academy webite</a></td>
+                        <td>Completed</td>
+                        <td><i class="hgi-stroke hgi-eye"></i></td>
+                    </tr>
+                    <tr>
+                        <td>6689A</td>
+                        <td><a href="https://afyayangu.go.ke/" target="_blank">Symptom checker</a></td>
+                        <td>In progress</td>
+                        <td><i class="hgi-stroke hgi-pencil-edit-02"></i></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section id="contact">
+                <h2>Contact</h2>
+                <form action="#" method="post">
+                    <label for="Fullname">Fullname</label>
+                    <input type="text" id="Fullname" name="name">
+
+                    <label for="Email">Email</label>
+                    <input type="email" id="Email" name="email">
+
+                    <label for="phonenumber">Phone</label>
+                    <input type="tel" id="phonenumber" name="phonenumber" minlength="8" maxlength="12">
+                    
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="wrqTGd24$G">
+                    
+                    <label for="pagesneeded">Pages needed</label>
+                    <input type="number" id="pagesneeded" name="pagesneeded" min="1" max="10">
+                   
+                    <label for="Favouritecolour">Favourite colour</label>
+                    <input type="color" id="Favouritecolour" name="Favouritecolour">
+                    
+                    <label for="Calldate">Call date</label>
+                    <input type="date" id="Calldate" name="Calldate">
+                    
+                    <label for="Projectfile">Project file</label>
+                    <input type="file" id="Projectfile" name="Projectfile">
+                    
+                    <label for="contact_email">Contact me by Email</label>
+                    <input type="radio" id="contact_email" name="contactmethod">
+
+                    <label for="contact_phone">Contact me by Phone</label>
+                    <input type="radio" id="phone" name="contactmethod">
+                    
+                    <label for="subscribe">Subscribe</label>
+                    <input type="checkbox" name="subscribe" id="subscribe">
+                    
+                    <label for="Accecptterms">Accept terms</label>
+                    <input type="checkbox" id="acceptterms" name="acceptterms">
+                    
+                    <button type="submit">Submit</button>
+                </form>
+            </section>   
+    </main>
+    <footer>
+        <p>&copy; 2026 Faith Ochieng</p>
+        <a href="https://github.com/faithochieng" target="_blank">GitHub<i class="hgi-stroke hgi-github"></i></a>
+        <a href="https://twitter.com/faithochieng" target="_blank">Twitter<i class="hgi-stroke hgi-twitter"></i></a>
+        <a href="https://www.instagram.com/faithochieng" target="_blank">Instagram<i class="hgi-stroke hgi-instagram"></i></a>
+        <a href="#home">Back to Top</a>
+    </footer>
+</body>
+</html>
