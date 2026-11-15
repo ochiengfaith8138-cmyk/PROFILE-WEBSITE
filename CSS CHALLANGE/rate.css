@@ -1,0 +1,151 @@
+:root{
+    --bg:#333;
+    --fg:white;
+    --muted:rgb(37, 151, 37);
+    --accent:green;
+    --line:navy blue;
+    --max-width:1280;
+    --border-radius:6px
+}
+body{
+    background-color: var(--bg);
+    color:var(--fg);
+    line-height: 1.6;
+    overflow-x: hidden;
+    -webkit-font-smoothing:initialised;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 100;
+    background-color: var(--muted);
+}
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: var(--width);
+    border-bottom: 1px solid navy;
+    margin: 0 auto;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+h1:hover{
+    background-color: azure;
+    color: #333;
+}
+img{
+    position: relative;
+}
+.btn{
+    background-color: var(--accent);
+    color: var(--fg);
+    border: none;
+    padding: 0.75em 1.5em;
+    border-radius: 2px;
+    font-size: 1rem;
+    
+}
+.box-one{
+    position:static;
+    top: 2rem;
+    height: 4rem;
+    background-color: green;
+    margin: auto;
+}
+.box-two{
+    position:relative;
+    top: 1rem;
+    left: 2rem;
+    height: 4rem;
+    background-color: greenyellow;
+    box-sizing: 4rem;
+    border-radius: 3px;
+    width: 4rem;
+}
+.box-three{
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    height: 4rem;
+    background-color:green;
+}
+h1{
+padding: 8px;
+padding-top: 3px;
+}
+
+#home{
+    padding-top: 12rem;
+}
+.hero-photo{
+    position: relative;
+}
+
+.badge{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    z-index: 2;
+    background-color: aliceblue;
+    color: #333;
+    border-radius: var(--border-radius);
+}
+.container{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    margin:0 auto;
+    max-width: var(--max-width);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
